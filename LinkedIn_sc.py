@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[ ]:
-
+#
 
 from bs4 import BeautifulSoup
 from urllib.error import HTTPError,URLError
