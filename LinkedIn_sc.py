@@ -68,8 +68,8 @@ def take_info(soup,Title, Company, Location, Time_Published, EmploymentType, Ind
         #ifNone(c,Company)
         #ifNone(name,Title)
         conn = pyodbc.connect('Driver={ODBC Driver 17 for SQL Server};'
-                      'Server=LAPTOP-AB644KQI\SQLEXPRESS;'
-                      'Database=LinkedIn;'
+                      'Server={Server Name};'
+                      'Database={Database Name};'
                       'Trusted_Connection=yes;')
         cursor = conn.cursor()
 
